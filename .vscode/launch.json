@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "name": "Next.js: debug servierside",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "yarn dev"
+    },
+    {
+      "name": "Next.js: debug clientside",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000"
+    }
+  ]
+}
